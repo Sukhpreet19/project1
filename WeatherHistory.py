@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-file="/home/dangerous20/Downloads/weatherHistory.csv"
+file="https://raw.githubusercontent.com/Sukhpreet19/project1/main/weatherHistory.csv"
 df=pd.read_csv(file)
 df.head(10)
 df1=df[['Formatted Date','Apparent Temperature (C)','Humidity']]
